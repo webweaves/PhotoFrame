@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">  
+      
+    <h:head>
+    	<title>Photos</title>
+    	<h:outputStylesheet name="stylesheet/bootfaces.css" />
+		<ui:insert name="head"></ui:insert>
+	</h:head>
+    <h:body>
+		<ui:insert name="navigation">
+			<ui:include src="/templates/navigation.xhtml"></ui:include>
+		</ui:insert>
+		<ui:insert name="header">
+			<ui:include src="/templates/header.xhtml"></ui:include>
+		</ui:insert>
+		<ui:insert name="content">
+			<ui:include src="/templates/content.xhtml"></ui:include>
+		</ui:insert>
+       	<ui:insert name="footer">
+			<ui:include src="/templates/footer.xhtml"></ui:include>
+		</ui:insert>
+	</h:body>
+</html>
